@@ -2,7 +2,7 @@
 
 This repository contains the dataset [`collection_with_abstracts.csv`](https://github.com/jd-coderepos/virology-ai-papers/blob/main/collection_with_abstracts.csv), compiled via queries issued to the [PubMed](https://pubmed.ncbi.nlm.nih.gov/) database. PubMed is one of the largest databases indexing publications in the Life Sciences.
 
-## 📊 Dataset Scope
+## 🔬 Dataset Scope
 
 This dataset includes papers from PubMed that address problems in virology or epidemiology using deep learning neural network-based solutions. The dataset consists of 11,450 unique papers. For more detailed insights into the queries used to compile this collection, please view [this document](https://docs.google.com/document/d/1uMkXik3B3rNnKLbZc5AyqWruTGUKdpJcZFZZ4euM0Aw/edit?usp=sharing).
 
