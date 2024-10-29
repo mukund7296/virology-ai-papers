@@ -1,12 +1,12 @@
-# Virology and Epidemiology AI Research Collection
+# 🧬 Virology and Epidemiology AI Research Collection
 
 This repository contains the dataset [`collection_with_abstracts.csv`](https://github.com/jd-coderepos/virology-ai-papers/blob/main/collection_with_abstracts.csv), compiled via queries issued to the [PubMed](https://pubmed.ncbi.nlm.nih.gov/) database. PubMed is one of the largest databases indexing publications in the Life Sciences.
 
-## Dataset Scope
+## 📊 Dataset Scope
 
 This dataset includes papers from PubMed that address problems in virology or epidemiology using deep learning neural network-based solutions. The dataset consists of 11,450 unique papers. For more detailed insights into the queries used to compile this collection, please view [this document](https://docs.google.com/document/d/1uMkXik3B3rNnKLbZc5AyqWruTGUKdpJcZFZZ4euM0Aw/edit?usp=sharing).
 
-## Data Columns Description
+## 📑 Data Columns Description
 
 Each row in the `collection_with_abstracts.csv` file corresponds to a unique academic paper, structured with the following columns:
 
@@ -23,10 +23,10 @@ Each row in the `collection_with_abstracts.csv` file corresponds to a unique aca
 - **DOI**: Digital Object Identifier, providing a persistent link to its location on the internet. This field is optional and may not be present for all records.
 - **Abstract**: The abstract of the publication. This field is optional and may not be present for all records.
 
-## Note on Optional Fields
+### ❗ Note on Optional Fields
 
 Fields marked as "optional" may not be present for all records within the dataset. This indicates that certain information is not available or applicable for those specific entries.
 
-## Accessing Full Texts
+## 🌐 Accessing Full Texts
 
 The PubMed Central (PMC) database, a subset of PubMed records, provides access to the full text of articles in XML format or other formats. Articles can be accessed via the API using the following URL: `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=[insert-pmcid-here]`, where `[insert-pmcid-here]` is to be replaced with the actual PMCID of the article.
