@@ -80,6 +80,16 @@ For filtering the papers, I employed a **Named Entity Recognition (NER)** model,
 - **Unique Papers After Deduplication**: 11,450
 - **Total Fields in Dataset**: 10 (PMID, Title, Authors, Citation, First Author, Journal/Book, Publication Year, Create Date, PMCID, DOI, Abstract)
 
+## Summary of Results
+- Total Records: You initially queried a total of 12,980 records and after deduplication, you ended up with 11,450 records.
+
+- Filtering: Your filtering process is crucial for narrowing down relevant literature to specific technologies.
+
+- Categorization: The categorization of papers helps you identify which technologies are most commonly discussed in the context of virology and epidemiology.
+
+- Statistical Insights: Counting and visualizing the results allows for easy interpretation of trends and focuses within the literature.
+
+
 ## Conclusion
 This project provides a structured approach to gathering and analyzing academic literature in virology and epidemiology using modern NLP techniques. By leveraging deep learning methods for filtering, we enhance the quality and relevance of the collected dataset.
 
