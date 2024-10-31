@@ -55,6 +55,7 @@ This project aims to facilitate research in the fields of virology and epidemiol
 
 ### Step 2: Define PubMed Queries
 - Construct and run the PubMed queries to retrieve relevant records for each deep learning technique. Export results to separate CSV files.
+- https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=39398866
 
 ### Step 3: Compile and Deduplicate Results
 - Load the CSV files, merge them, and remove duplicates based on the PMID column.
