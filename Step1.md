@@ -66,7 +66,6 @@ This project aims to facilitate research in the fields of virology and epidemiol
 - python main.py
 
 ### Step 6: Output
-- The script will print a message indicating that the filtered dataset has been saved:
 - The script successfully filtered the dataset and saved the results to a new file called filtered_virology_papers.csv. This file contains the papers that met your specified criteria regarding the use of deep learning approaches in virology and epidemiology.
 
 
