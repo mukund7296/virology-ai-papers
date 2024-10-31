@@ -62,32 +62,18 @@ This project aims to facilitate research in the fields of virology and epidemiol
 ### Step 4: Analyze the Dataset
 - Open `collection_with_abstracts.csv` to ensure data integrity.
 
-### Step 5: Implement Filtering and Classification
-- Use pre-trained NLP models (e.g., SciBERT) to filter papers semantically rather than using simple keyword searches.
+### Step 5: Running the Script
+- python main.py
 
-### Step 6: Save and Document Your Results
-- Save the final dataset and update the README with insights.
+### Step 6: Output
+- The script will print a message indicating that the filtered dataset has been saved:
+- The script successfully filtered the dataset and saved the results to a new file called filtered_virology_papers.csv. This file contains the papers that met your specified criteria regarding the use of deep learning approaches in virology and epidemiology.
 
-## NLP Techniques for Filtering
-For filtering the papers, I employed a **Named Entity Recognition (NER)** model, specifically using **SciBERT**, a transformer-based model pre-trained on scientific text. This approach is more effective than keyword-based filtering for several reasons:
-
-- **Contextual Understanding**: NER models can understand context and nuances in the language, allowing them to identify relevant papers that may not contain exact keyword matches but still pertain to the topic of interest.
-- **Semantic Filtering**: By analyzing the relationships between words, the model can capture variations in terminology and language used in scientific literature, improving recall rates.
-- **Reduced False Positives**: NER helps in minimizing irrelevant results that may arise from simple keyword matching, thus providing a more accurate dataset for analysis.
 
 ## Dataset Statistics
 - **Total Papers Retrieved**: 12,980
 - **Unique Papers After Deduplication**: 11,450
 - **Total Fields in Dataset**: 10 (PMID, Title, Authors, Citation, First Author, Journal/Book, Publication Year, Create Date, PMCID, DOI, Abstract)
-
-## Summary of Results
-- Total Records: You initially queried a total of 12,980 records and after deduplication, you ended up with 11,450 records.
-
-- Filtering: Your filtering process is crucial for narrowing down relevant literature to specific technologies.
-
-- Categorization: The categorization of papers helps you identify which technologies are most commonly discussed in the context of virology and epidemiology.
-
-- Statistical Insights: Counting and visualizing the results allows for easy interpretation of trends and focuses within the literature.
 
 
 ## Conclusion
